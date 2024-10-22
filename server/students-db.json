@@ -1,0 +1,84 @@
+{
+  "student": [
+    {
+      "id": "2",
+      "fullname": "Rakanda Pangeran Nasution",
+      "birthDate": "1992-07-26",
+      "gender": "Male",
+      "faculty": "Fakultas Ilmu Sosial dan Politik",
+      "programStudy": "Administrasi Publik"
+    },
+    {
+      "id": "4",
+      "fullname": "Angelia",
+      "birthDate": "1996-06-17",
+      "gender": "Female",
+      "faculty": "Fakultas Ilmu Sosial dan Politik",
+      "programStudy": "Administrasi Publik"
+    },
+    {
+      "id": "5",
+      "fullname": "Tuti Marsinah",
+      "birthDate": "1998-03-11",
+      "gender": "Female",
+      "faculty": "Fakultas Ekonomi",
+      "programStudy": "Ekonomi"
+    },
+    {
+      "id": "6",
+      "fullname": "Edizon",
+      "birthDate": "1982-01-31",
+      "gender": "Male",
+      "faculty": "Fakultas Ekonomi",
+      "programStudy": "Ekonomi"
+    },
+    {
+      "id": "7",
+      "fullname": "Vony Merdiana",
+      "birthDate": "1991-05-21",
+      "gender": "Female",
+      "faculty": "Fakultas Teknik",
+      "programStudy": "Teknik Sipil"
+    },
+    {
+      "id": "f35c",
+      "fullname": "Sholikul",
+      "birthDate": "2024-10-03",
+      "gender": "Male",
+      "faculty": "Fakultas Teknologi Informasi dan Sains",
+      "programStudy": "Informatika"
+    },
+    {
+      "id": "30ce",
+      "fullname": "Sholikul",
+      "birthDate": "2024-10-03",
+      "gender": "Male",
+      "faculty": "Fakultas Teknologi Informasi dan Sains",
+      "programStudy": "Informatika"
+    },
+    {
+      "id": "6c1c",
+      "fullname": "Sholikul",
+      "birthDate": "2024-10-02",
+      "gender": "Male",
+      "faculty": "Fakultas Teknologi Informasi dan Sains",
+      "programStudy": "Informatika"
+    },
+    {
+      "id": "1826",
+      "fullname": "Sholikul",
+      "birthDate": "2024-10-02",
+      "gender": "Male",
+      "faculty": "Fakultas Teknologi Informasi dan Sains",
+      "programStudy": "Informatika"
+    },
+    {
+      "id": "79a9",
+      "fullname": "Sholikul ardian",
+      "birthDate": "2024-10-02",
+      "gender": "Male",
+      "faculty": "Fakultas Teknologi Informasi dan Sains",
+      "programStudy": "Informatika"
+    }
+  ]
+}
