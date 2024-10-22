@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Form = (props) => {
   const [fullname, setFullname] = useState('');
@@ -6,7 +6,7 @@ const Form = (props) => {
   const [gender, setGender] = useState('');
   const [programStudy, setProgramStudy] = useState('');
   const [faculty, setFaculty] = useState('');
-  const [payload, setPayload] = useState({});
+  // const [payload, setPayload] = useState({});
 
   const { addStudent } = props;
 
@@ -36,30 +36,29 @@ const Form = (props) => {
     }
   };
 
-  const handleForm = (e) => {
+  useEffect(() => {
+    chooseFaculty(programStudy);
+  }, [programStudy]);
+
+  const handleForm = async (e) => {
+    console.log(fullname);
+
     e.preventDefault();
+
     chooseFaculty(programStudy);
     if (fullname.trim() && birthDate.trim() && gender.trim() && programStudy.trim() && faculty.trim()) {
-      setPayload({
+      const newPayload = {
         fullname,
         birthDate,
         gender,
         faculty,
         programStudy,
-      });
-      console.log(payload);
-      if (Object.keys(payload).length !== 0) {
-        addStudent(payload);
-      }
+      };
+      console.log(newPayload);
+      await addStudent(newPayload);
     } else {
       console.log('payload kosong');
     }
-
-    // setFullname('');
-    // setBirthDate('');
-    // setGender('');
-    // setProgramStudy('');
-    // setFaculty('');
   };
 
   return (

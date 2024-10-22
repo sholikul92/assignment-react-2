@@ -31,7 +31,7 @@ const App = () => {
     fetch(`${url}/${id}`, {
       method: 'DELETE',
       headers: {
-        'Content-Type': 'Aplication/Json',
+        'Content-Type': 'application/json',
       },
     }).then(() => {
       getStudent();
@@ -45,7 +45,7 @@ const App = () => {
       fetch(url, {
         method: 'POST',
         headers: {
-          'Content-Type': 'Application/Json',
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify(payload),
       }).then(() => {
